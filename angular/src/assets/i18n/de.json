@@ -32,6 +32,7 @@
     "updateButton-label": "{{buttons.update}}"
   },
   "deckNames": {
+    "MINIMAL_T_SHIRTS": "Modifiziertes T-Shirt Größen",
     "FIBONACCI": "Fibonacci",
     "MODIFIED_FIBONACCI": "Modifiziertes Fibonacci",
     "POWERS": "Zweierpotenz",

@@ -11,6 +11,16 @@ export interface Deck {
 
 export const decks: Deck[] = [
   {
+    name: 'MINIMAL_T_SHIRTS',
+    textValues: true,
+    values: [
+      { value: 1, display: 'S' },
+      { value: 2, display: 'M' },
+      { value: 3, display: 'L' },
+      { value: 4, display: 'XL' },
+    ]
+  },
+  {
     name: 'FIBONACCI',
     textValues: false,
     values: [
