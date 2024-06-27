@@ -69,6 +69,17 @@ export const decks: Deck[] = [
     ]
   },
   {
+    name: 'POWERS3',
+    textValues: false,
+    values: [
+      { value: 0, display: 3 },
+      { value: 1, display: 9 },
+      { value: 2, display: 27 },
+      { value: 3, display: 81 },
+      { value: 3, display: 243 },
+    ]
+  },
+  {
     name: 'TRUST_VOTE',
     textValues: false,
     values: [

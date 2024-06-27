@@ -6,6 +6,7 @@ class Deck(Enum):
     FIBONACCI = [0, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
     MODIFIED_FIBONACCI = [0, 0.5, 1, 2, 3, 5, 8, 13, 20, 40, 100]
     POWERS = [0, 1, 2, 4, 8, 16, 32, 64]
+    POWERS3 = [3, 9, 27, 81, 243]
     TRUST_VOTE = [0, 1, 2, 3, 4, 5]
     T_SHIRTS = [1, 2, 3, 4, 5, 6, 7]  # Each value maps to a t-shirt size from XXS to XXL
     MINIMAL_T_SHIRTS = [1, 2, 3, 4]  # Each value maps to a t-shirt size from S to XL
