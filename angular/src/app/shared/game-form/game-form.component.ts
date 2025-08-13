@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Deck, decks, decksDict, displayDeckValues } from '../../model/deck';
-import { NgFor } from '@angular/common';
+import { NgFor, formatDate } from '@angular/common';
 import { TranslocoDirective } from '@ngneat/transloco';
 
 @Component({
@@ -24,7 +24,7 @@ export class GameFormComponent implements OnInit{
 
   constructor(private fb: FormBuilder) {
     this.formGroup = this.fb.group({
-      name: [ '', [ Validators.required, Validators.minLength(1) ]],
+      name: [ this.todaysDate(), [ Validators.required, Validators.minLength(1) ]],
       deck: [ decksDict['MINIMAL_T_SHIRTS'], Validators.required ]
     });
   }
@@ -44,6 +44,10 @@ export class GameFormComponent implements OnInit{
 
   isNewGame(): boolean {
     return !this.name && !this.deck;
+  }
+
+  todaysDate(): string {
+    return formatDate(new Date(), "yyyy-MM-dd", "en-US");
   }
 
 }
