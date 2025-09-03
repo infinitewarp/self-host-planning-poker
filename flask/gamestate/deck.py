@@ -9,4 +9,4 @@ class Deck(Enum):
     POWERS3 = [3, 9, 27, 81, 243]
     TRUST_VOTE = [0, 1, 2, 3, 4, 5]
     T_SHIRTS = [1, 2, 3, 4, 5, 6, 7]  # Each value maps to a t-shirt size from XXS to XXL
-    MINIMAL_T_SHIRTS = [1, 2, 3, 4]  # Each value maps to a t-shirt size from S to XL
+    MINIMAL_T_SHIRTS = [1, 2, 3, 4, 5]  # Each value maps to a t-shirt size from XS to XL
