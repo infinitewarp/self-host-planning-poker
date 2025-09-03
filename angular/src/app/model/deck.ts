@@ -14,10 +14,11 @@ export const decks: Deck[] = [
     name: 'MINIMAL_T_SHIRTS',
     textValues: true,
     values: [
-      { value: 1, display: 'S' },
-      { value: 2, display: 'M' },
-      { value: 3, display: 'L' },
-      { value: 4, display: 'XL' },
+      { value: 1, display: 'XS' },
+      { value: 2, display: 'S' },
+      { value: 3, display: 'M' },
+      { value: 4, display: 'L' },
+      { value: 5, display: 'XL' },
     ]
   },
   {
