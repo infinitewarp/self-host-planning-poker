@@ -10,3 +10,4 @@ class Deck(Enum):
     TRUST_VOTE = [0, 1, 2, 3, 4, 5]
     T_SHIRTS = [1, 2, 3, 4, 5, 6, 7]  # Each value maps to a t-shirt size from XXS to XXL
     MINIMAL_T_SHIRTS = [1, 2, 3, 4, 5]  # Each value maps to a t-shirt size from XS to XL
+    CONFIDENCE = [0, 1, 2]  # Each value maps to low, medium, high

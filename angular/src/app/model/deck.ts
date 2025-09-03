@@ -22,6 +22,15 @@ export const decks: Deck[] = [
     ]
   },
   {
+    name: 'CONFIDENCE',
+    textValues: true,
+    values: [
+      { value: 1, display: 'low' },
+      { value: 2, display: 'med' },
+      { value: 3, display: 'high' },
+    ]
+  },
+  {
     name: 'FIBONACCI',
     textValues: false,
     values: [
