@@ -33,6 +33,7 @@
   },
   "deckNames": {
     "MINIMAL_T_SHIRTS": "Minimal T-Shirt Sizes",
+    "CONFIDENCE": "Confidence",
     "FIBONACCI": "Fibonacci",
     "MODIFIED_FIBONACCI": "Modified Fibonacci",
     "POWERS": "Powers of 2",
